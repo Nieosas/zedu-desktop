@@ -113,7 +113,7 @@ class _NotificationsSectionState extends State<NotificationsSection> {
           child: Column(
             children: [
               _CheckboxLine(
-                label: 'Use different settings for mobile devices',
+                label: 'Use the same settings on mobile devices',
                 value: _draft.useDesktopSettings,
                 onChanged: (value) =>
                     _setDraft(_draft.copyWith(useDesktopSettings: value)),
